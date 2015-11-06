@@ -33,7 +33,7 @@ $(document).ready(function(){
     moveTopBoo = setInterval(floatTopBoo, 20);
 
 //this sets the cursor to Luigi while the game is playing and prevents it from changing
-    $('#container').css( 'cursor', 'url(../project1/Images/LuigiFlip.png), auto');
+    $('#container').css( 'cursor', 'url(Images/LuigiFlip.png), auto');
 
     $("#container").mousedown(function(event){
     event.preventDefault();})
